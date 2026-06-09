@@ -12,6 +12,13 @@
     font-family: "Segoe UI", sans-serif;
 }
 
+.arimo-<uniquifier> {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 body {
     background: #f4f4f4;
     color: #333;
