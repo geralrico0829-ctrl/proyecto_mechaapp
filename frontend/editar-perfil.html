@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MECHAAP - Editar Perfil</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="panel.html">Control</a>
+        <a href="perfil.html">Mi Perfil</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="login.html">Cerrar Sesión</a>
+    </nav>
+
+    <section class="container">
+
+        <h1>Editar Perfil</h1>
+        <p>Actualiza tu información personal.</p>
+        <br>
+
+        <div class="perfil-card">
+
+            <form action="#" method="post">
+
+                <label for="foto">
+                    <strong>Foto de Perfil</strong>
+                </label>
+                <input type="file" id="foto" name="foto">
+
+                <label for="nombre">
+                    <strong>Nombre Completo</strong>
+                </label>
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    value="Geraldine Rico"
+                    required
+                >
+
+                <label for="correo">
+                    <strong>Correo Electrónico</strong>
+                </label>
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    value="geraldine@email.com"
+                    required
+                >
+
+                <label for="telefono">
+                    <strong>Teléfono</strong>
+                </label>
+                <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    value="3001234567"
+                >
+
+                <label for="direccion">
+                    <strong>Dirección</strong>
+                </label>
+                <input
+                    type="text"
+                    id="direccion"
+                    name="direccion"
+                    placeholder="Ingrese su dirección"
+                >
+
+                <label for="ciudad">
+                    <strong>Ciudad</strong>
+                </label>
+                <input
+                    type="text"
+                    id="ciudad"
+                    name="ciudad"
+                    placeholder="Ingrese su ciudad"
+                >
+
+                <label for="descripcion">
+                    <strong>Descripción Personal</strong>
+                </label>
+                <textarea
+                    id="descripcion"
+                    name="descripcion"
+                    rows="5"
+                    placeholder="Cuéntanos un poco sobre ti..."
+                ></textarea>
+
+                <label for="password">
+                    <strong>Nueva Contraseña</strong>
+                </label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Ingrese una nueva contraseña"
+                >
+
+                <label for="confirmar">
+                    <strong>Confirmar Contraseña</strong>
+                </label>
+                <input
+                    type="password"
+                    id="confirmar"
+                    name="confirmar"
+                    placeholder="Repita la contraseña"
+                >
+
+                <div class="acciones">
+                    <button type="submit" class="btn">
+                        Guardar Cambios
+                    </button>
+
+                    <a href="perfil.html" class="btn">
+                        Cancelar
+                    </a>
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MECHAAP - La pasión por el tejo colombiano.</p>
+    </footer>
+
+</body>
+</html>
